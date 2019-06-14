@@ -8,6 +8,7 @@ jobs:
       - run:
           name: Pass or Fail?
           command: |
+            ls -la
             source params.sh
             sleep $DELAY
             exit $EXIT_CODE
