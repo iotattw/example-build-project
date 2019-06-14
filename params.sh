@@ -1,3 +1,3 @@
 #!/bin/bash
-EXIT_CODE=0
-DELAY=0
+EXIT_CODE=1
+DELAY=10
