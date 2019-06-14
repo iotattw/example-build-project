@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   build:
     docker:
-      - image: alpine:3.7
+      - image: alpine/git:1.0.7
     steps:
       - run:
           name: Pass or Fail?
