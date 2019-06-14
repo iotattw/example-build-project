@@ -3,9 +3,11 @@ version: 2.1
 jobs:
   build:
     docker:
-      - image: alpine/git:1.0.7
+      - image: alpine:latest
     steps:
       - run:
           name: Pass or Fail?
           command: |
-            git log -1 --pretty=%B
+            source params.sh
+            sleep $DELAY
+            exit $EXIT_CODE
