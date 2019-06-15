@@ -1,3 +1,3 @@
 #!/bin/bash
-EXIT_CODE=0 # 0 is pass, 1 is fail
+EXIT_CODE=1 # 0 is pass, 1 is fail
 DELAY=30 # in seconds
