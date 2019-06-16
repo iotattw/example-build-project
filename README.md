@@ -5,14 +5,12 @@ Example Build Project
 
 Tweaking the build
 ------------------
-Change values in [params.sh](params.sh) to decide if the build should pass or fail.
+Change values in [params.sh](params.sh) to decide if the build should pass or fail. There are some shortcuts in the [Makefile](Makefile):
 
-Use the [CircleCI status endpoint](https://circleci.com/api/v1.1/project/github/iotattw/example-build-project) to get information about the build.
+- `make fail`: Set the EXIT_CODE to 1 and commit the change immediately
+- `make pass`: Set the EXIT_CODE to 0 and commit the change immediately
 
-
-Interesting keys
-----------------
-
+Use the [CircleCI status endpoint](https://circleci.com/api/v1.1/project/github/iotattw/example-build-project?limit=1&shallow=true) to get information about the build.
 
 Examples
 --------
