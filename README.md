@@ -14,6 +14,6 @@ Use the [CircleCI status endpoint](https://circleci.com/api/v1.1/project/github/
 
 Examples
 --------
-- [Not building, last build passed](example-passed.json)
-- [Building, last build passed](example-building-passing.json)
-- [Not building, last build failed](example-failed.json)
+- [Not running, last build was success](example-success.json)
+- [Not running, last build was failed](example-failed.json)
+- [Running](example-running.json)
